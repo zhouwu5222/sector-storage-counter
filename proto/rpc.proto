@@ -1,0 +1,16 @@
+syntax ="proto3";
+
+package proto;
+
+option go_package = "./;proto";
+
+message SectorIDRequest{  // 定义请求信息
+  string question = 1;
+}
+message SectorIDResponse{  // 定义响应信息
+  uint64 answer = 1;
+}
+
+service SectorIdGrpc{
+  rpc GetSectorID(SectorIDRequest) returns(SectorIDResponse);
+}
