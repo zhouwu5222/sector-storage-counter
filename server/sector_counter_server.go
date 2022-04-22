@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"sector-storage-counter/proto"
+	"github.com/zhouwu5222/sector-storage-counter/proto"
 )
 
 // Service

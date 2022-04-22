@@ -6,7 +6,7 @@ import (
 	"google.golang.org/grpc"
 	"testing"
 
-	"sector-storage-counter/proto"
+	"github.com/zhouwu5222/sector-storage-counter/proto"
 )
 
 func TestClient(t *testing.T) {

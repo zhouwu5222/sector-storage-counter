@@ -3,11 +3,11 @@ package cmd
 import (
 	"testing"
 
-	"sector-storage-counter/server"
+	"github.com/zhouwu5222/sector-storage-counter/server"
 )
 
 func TestServer(t *testing.T) {
 
-	main.Run("/root/project3/sectorid/sectorid.data")
+	server.Run("/root/project3/sectorid/sectorid.data")
 
 }

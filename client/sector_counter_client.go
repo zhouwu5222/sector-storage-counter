@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"sector-storage-counter/proto"
+	"github.com/zhouwu5222/sector-storage-counter/proto"
 )
 
 // Client ..
