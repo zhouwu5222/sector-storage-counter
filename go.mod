@@ -1,4 +1,4 @@
-module sector-storage-counter
+module github.com/zhouwu5222/sector-storage-counter
 
 go 1.16
 
